@@ -23,11 +23,10 @@ MATLAB scripts - After the files are on your system, run the function $fullsimpl
 
 
 
-# Model improvements:
-Updated inverse basis matrix ($\hat{B}^{-1}$) calculation can be further optimised via Gauss-Jordan elimination.
-
-Preprocessing heuristics (to improve performance), such as:
-- Redundant constraint removal
-- Variable elimination
-- Dual problem solving 
+# Model improvements (For performance improvements):
+- Updated inverse basis matrix ($\hat{B}^{-1}$) calculation can be further optimised via Gauss-Jordan elimination.
+- Preprocessing heuristics.
+- Redundant constraint removal.
+- Variable elimination.
+- Dual problem solving.
 
